@@ -1,0 +1,14 @@
+{
+  "name": "baselayers-studio-webpage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static BaseLayers Studio website with SMTP-backed inquiry forms.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "nodemailer": "^9.0.1"
+  }
+}
